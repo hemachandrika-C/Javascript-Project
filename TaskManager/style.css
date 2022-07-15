@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    color:white;
+    padding:20px;
+}
+
+.background_image{
+    background: url("./img/body_bg.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#Displaying_Today_Date{
+    color: rgb(219, 18, 169);
+    font-size: 30px; 
+    font-family: bolder;
+
+}
+
+.txt_field{
+    width: 100%;
+    font-size: 15px;
+    outline: none;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.11);
+    border: none;
+    border-bottom: 1px solid #000;
+    color: #495057;
+    background-color: #fff;
+    padding: 10px 5px;
+    border-radius: 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.add_btn{
+    width: 70%;
+    text-align: center;
+    background-color: rgb(219, 18, 169);
+    border: rgb(219, 18, 169);
+    color: #fff;
+    padding: 5px 5px;
+    font-weight: bold;
+ 
+}
+.background_imag{
+   background-image: url("./img/pattern.png");
+  align-items: center;
+    height: 70px;
+  
+ }
+ ul li{
+     list-style-type: none;
+ }
+
+ .lists{
+    background-color: #fff;
+    color: #495057;
+    padding:20px;
+    margin-bottom: 5px;
+    text-align:center;
+    margin: auto !important;
+    width: 80%;
+    position: relative;
+    margin-top: 20px !important;
+}
+
+.heartbtn{
+   position: absolute;
+   left: 30px;
+ 
+   
+}
+#closeBtn{
+    position: absolute;
+    right: 30px;
+    background-color: rgb(219, 18, 169) ;
+    padding: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fa-angellist {
+  font-size: 32px;  
+  color:#000; 
+}
+
+.add{
+    color: rgb(214, 18, 240);
+    font-size: 40px !important;
+    
+}
+
